@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  FileProvider paths — allows the camera app to write a captured image
+  into the app's private Pictures directory, which is then read back
+  by the WebView file chooser.
+-->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- External storage pictures (camera captures) -->
+    <external-files-path
+        name="temple_images"
+        path="Pictures/" />
+    <!-- App internal cache (fallback) -->
+    <cache-path
+        name="temple_cache"
+        path="." />
+</paths>

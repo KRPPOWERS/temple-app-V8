@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Temple app colour palette (matches CSS variables) -->
+    <color name="bg_dark">#0D0A06</color>
+    <color name="surface">#16120B</color>
+    <color name="gold">#C9922A</color>
+    <color name="gold_light">#E8B84B</color>
+    <color name="text">#F0E6CC</color>
+
+    <!-- System / status bar colours -->
+    <color name="colorPrimary">#16120B</color>
+    <color name="colorPrimaryVariant">#0D0A06</color>
+    <color name="colorOnPrimary">#E8B84B</color>
+    <color name="colorSecondary">#C9922A</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorSurface">#16120B</color>
+    <color name="colorOnSurface">#F0E6CC</color>
+    <color name="colorBackground">#0D0A06</color>
+    <color name="colorError">#C0392B</color>
+</resources>

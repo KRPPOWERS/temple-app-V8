@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Backup rules — exclude sensitive session data from Android Auto Backup.
+  The app data (donations, subscriptions etc.) is already backed up to
+  Google Sheets, so Android backup is not critical.
+-->
+<full-backup-content>
+    <exclude domain="sharedpref" path="." />
+</full-backup-content>

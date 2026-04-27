@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Network security config.
+  The app only makes HTTPS requests (Google Sheets Apps Script URL).
+  Cleartext HTTP is disabled. CDN fonts (fonts.googleapis.com) and
+  cdnjs are also HTTPS — no special rules needed.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
